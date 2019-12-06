@@ -1,0 +1,61 @@
+body{
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+}
+
+a {
+    color: orange !important;
+}
+
+h1{
+    color: orange;
+    text-decoration: underline;
+}
+
+h5{
+    color: orange;
+    text-decoration: underline;
+}
+
+footer{
+    color: white;
+    background-color: black !important;
+}
+
+footer h5{
+    color: white;
+}
+
+.bg-secondary{
+    background-color: black !important;
+}
+
+.navbar-light .navbar-toggler{
+    background-color: orange !important;
+}
+
+.button-inscription{
+    color: silver !important;
+}
+
+.button-inscription:hover{
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: orange !important;
+    color: black !important;
+    border-color: white !important;
+}
+
+.facebook, .linkedin{
+    font-size: 30px;
+}
+
+.card-title{
+    color: orange !important;
+}
+
+.card-text{
+    font-size: 13px;
+}
