@@ -10,6 +10,12 @@ a {
 h1{
     color: orange;
     text-decoration: underline;
+    font-weight: bold;
+}
+
+h3{
+    color: orange;
+    text-decoration: underline;
 }
 
 h5{
@@ -24,6 +30,7 @@ footer{
 
 footer h5{
     color: white;
+    text-decoration: none;
 }
 
 .bg-secondary{
@@ -57,5 +64,9 @@ footer h5{
 }
 
 .card-text{
+    font-size: 13px;
+}
+
+#retrait, #presentation{
     font-size: 13px;
 }

@@ -19,6 +19,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1UYVDSuiyp8R1qxSobe5NaFqHQ9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,7 +33,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\62014-55-03\Desktop\Projet vélo\templates" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -55,7 +65,10 @@
       <updated>1575533395104</updated>
       <workItem from="1575533396260" duration="568000" />
       <workItem from="1575533973549" duration="19309000" />
-      <workItem from="1575615794660" duration="13163000" />
+      <workItem from="1575615794660" duration="13312000" />
+      <workItem from="1575875245588" duration="459000" />
+      <workItem from="1575875755910" duration="3682000" />
+      <workItem from="1575881979869" duration="3859000" />
     </task>
     <servers />
   </component>

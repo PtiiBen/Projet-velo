@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="FR-fr">
 <head>
-    <title>OBIKE | Accueil</title>
+    <title>OBIKE | Contact</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,12 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v1.0.0/css/unicons.css">
-    <link rel="stylesheet" href="libs/css/style.css">
+    <link rel="stylesheet" href="../libs/css/style.css">
 </head>
+
 <body>
 <!----Menu--->
 <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-    <img src="libs/img/logo.png" height="70" width="70" alt="logo"/>
+    <img src="../libs/img/logo1.png" height="70" width="70" alt="logo"/>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,17 +23,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-                <a class="nav-link active" href="#">Accueil <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../index.html">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="velos.html">Vélos/Locations <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact/Support <span
+                <a class="nav-link active" href="#">Contact/Support <span
                         class="sr-only">(current)</span></a>
             </li>
         </ul>
     </div>
+
     <!-- Model "Inscription" -->
     <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#espace">
         Mon Espace
@@ -79,9 +81,7 @@
                             <label class="form-check-label" for="exampleCheck2">J'accepte les conditions
                                 d'utilisations.</label>
                         </div>
-                        <p>
-                            <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
-                        </p>
+                        <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
                     </form>
                 </div>
             </div>
@@ -95,11 +95,9 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Se connecter</h5>
-                    <h5 class="modal-title ml-auto">
-                        <a class="button-inscription" data-dismiss="modal"
+                    <h5 class="modal-title ml-auto"><a class="button-inscription" data-dismiss="modal"
                                                        data-toggle="modal"
-                                                       data-target="#connexion">Inscription</a>
-                    </h5>
+                                                       data-target="#connexion">Inscription</a></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -129,58 +127,61 @@
     </div>
 </nav>
 
-<!---Carousel--->
-<div id="carouselExampleControls" class="carousel slide container-fluid w-100 m-0 p-0 mb-5" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="libs/img/1.jpg" class="d-block w-100" alt="slide1">
-        </div>
-        <div class="carousel-item">
-            <img src="libs/img/2.jpg" class="d-block w-100" alt="slide2">
-        </div>
-        <div class="carousel-item">
-            <img src="libs/img/3.jpg" class="d-block w-100" alt="slide3">
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+<div class="container text-center mt-3 mb-3">
+    <img src="../libs/img/hotline.jpg" alt="hotline"/>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
 </div>
 
-<!---Présentation--->
-<h1 class="text-center">Tous en selle avec O'BIKE !</h1>
-
-<div class="container mb-5">
-    <div class="row text-center mr-5 ml-5">
-        Qu'est-ce que O'BIKE ? Nous sommes une entreprise de location de vélos, que ce soit du VTT, vélo-cross ou de
-        ville. Il y en a pour tout les goûts !
-        À l'heure où nos grandes villes et axes de circulation bouchonnent, nous nous présentons comme une alternative
-        réelle et crédible.
-        Terminer les embouteillages et le stress au volant, place à la décontraction de la circulation en deux roues et
-        avec le sourire !
-        L'envie d'une ballade en famille ? Notre service propose un large choix de référence pour petits et grands.
-    </div>
+<div>
+    <h1 class="text-center">Nous contacter :</h1>
 </div>
 
-<!---Localisation--->
-<h1 class="text-center">Comment pédaler jusqu'à nous ?</h1>
+<div class="container col-4 mt-5">
+    <form>
+        <div class="form-group">
+            <label>Nom :</label>
+            <input type="text" class="form-control" id="name"
+                   aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label>Prénom :</label>
+            <input type="text" class="form-control" id="lastname">
+        </div>
+        <div class="form-group">
+            <label>Adresse :</label>
+            <input type="text" class="form-control" id="adress">
+        </div>
+        <div class="form-group">
+            <label>Téléphone <i class='uil uil-phone'></i> :</label>
+            <input type="text" class="form-control" id="phone">
+        </div>
+        <div class="form-group">
+            <label>Mail <i class='uil uil-envelope'></i> :</label>
+            <input type="text" class="form-control" id="mail">
+        </div>
+        <div class="form-group">
+            <label>Votre demande <i class='uil uil-question-circle'></i> :</label>
+            <input type="text" class="form-control" id="demande">
+        </div>
+        <div class="form-group">
+            <label>Votre message <i class='uil uil-edit'></i> :</label>
+            <textarea class="form-control" id="message"></textarea>
+        </div>
+        <p>
+            <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+        </p>
+    </form>
+</div>
+</div>
 
-<div class="container mb-3">
+<div class="container text-center mb-4">
     <div class="row">
-        <iframe class="mt-2 mx-auto col-12" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d20242.156650292174!2d2.964763230583489!3d50.640684338117644!2m3!1f0!
-        2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d50.651955199999996!2d2.9917184!4m5!1s0x47dd2a911dbafd63%3A0x964c94ce01299e08!2s
-        d%C3%A9cathlon%20englos!3m2!1d50.627663299999995!2d2.9712438!5e0!3m2!1sfr!2sfr!4v1575558773583!5m2!1sfr!2sfr"
-                width="600" height="450" frameborder="0"></iframe>
+        <div class="col-12 col-sm-4 col-mb-8 col-lg-4 mx-auto">
+            <img class="w-100" src="../libs/img/velo.gif"/>
+        </div>
     </div>
-</div>
-
-<div class="container text-center mb-5">
-<img src="libs/img/velo.gif" height="250" width="445" alt="gif"/>
 </div>
 
 <!---Footer--->
@@ -188,7 +189,7 @@
     <div class="container-fluid text-center text-md-left">
         <div class="row">
             <div class="col-md-6 mt-md-0 mt-3">
-                <h5 class="text-uppercase">Footer Content</h5>
+                <img src="../libs/img/logo2.png" height="40" width="150"/>
                 <p>Here you can use rows and columns to organize your footer content.</p>
             </div>
 
@@ -207,12 +208,10 @@
             </div>
 
             <div class="col-md-3 mb-md-0 mb-3">
-                <h5 class="text-uppercase">Nous suivres</h5>
+                <h5 class="text-uppercase">Social networks</h5>
                 <ul class="list-unstyled">
                     <li>
-                        <a class="facebook" href="#">
-                            <i class='uil uil-facebook'></i>
-                        </a>
+                        <a class="facebook" href="#"><i class='uil uil-facebook'></i></a>
                         <a class="linkedin" href="#"><i class='uil uil-linkedin'></i></a>
                     </li>
 
