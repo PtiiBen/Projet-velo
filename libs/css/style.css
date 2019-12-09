@@ -67,6 +67,11 @@ footer h5{
     font-size: 13px;
 }
 
+#presentation{
+    text-align: justify;
+    text-align-last: center;
+}
+
 #retrait, #presentation{
     font-size: 13px;
 }
